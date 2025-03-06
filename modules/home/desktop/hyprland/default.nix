@@ -14,7 +14,7 @@
       "$guiFM" = "thunar";
       "$tuiFM" = "yazi";
       "$menu" = "fuzzel";
-      "$browser" = "firefox";
+      "$browser" = "librewolf";
 
       exec-once = [
         "waybar"
@@ -100,6 +100,7 @@
         "$mainMod, F10, exec, playerctl previous"
         "$mainMod, F11, exec, playerctl next"
         "$mainMod, F12, exec, playerctl stop"
+        "$mainMod, Y, exec, ytmpv" # play yt video with mpd
 
         # Screenshot bindings
         "$mainMod ALT, S, exec, grim - | tee ~/pictures/sc/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png | wl-copy"

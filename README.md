@@ -13,7 +13,7 @@ shell: `zsh with starship prompt` \
 text editor: `neovim` \
 application launcher: `fuzzel` \
 bar: `waybar` \
-browser: `firefox + betterfox` \
+browser: `librewolf` \
 file manager: `yazi & thunar` \
 notifications: `dunst` \
 video player: `mpv` \
